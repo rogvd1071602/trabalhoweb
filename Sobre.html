@@ -1,0 +1,249 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+
+  <title>Sobre</title>
+
+@import url('https://fonts.googleapis.com/css2?amily=Inter:wght@300;400;500;600;700&display=swap'	);
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter' , sans-serif;
+}
+
+  body{
+    background-color: #f1f6fc31;
+}
+
+  section, footer{
+     padding: 54px 0;
+}
+  
+  h3  {
+     font-size: 50px;
+}
+  
+  p   {
+     color: #0000009c;
+}
+
+  .container{
+     max-width: 1400px;
+     margin: 0 auto;
+     padding: 0 5%;
+}
+
+  .btn {
+     background-color: #4f9cf9;
+     color: white;
+     padding: 15px 20px;
+     border-radius: 10px;
+     cursor: pointer;
+     display: inline-block;
+     trnsition: 0.1s;
+}
+
+  .btn:hover{
+     background-color: #3580db;
+}
+
+@keyrames animate-outline {
+     from {
+          outline: 0px solid #4f9bf98a;
+     }
+     to {
+          outline: 15px solid #49bf98a;
+     }
+}
+
+
+  heade{
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+  nav  {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 30px;
+}
+
+  nav ul{
+     display: lex;
+     aling-items: center;
+}
+
+  nav ul a{
+     color: white;
+     margin: 0 25px;
+     text-transform: uppercase;
+     font-size: 14px;
+}
+
+  nav ul a::ater{
+     content:"";
+     background-color: red;
+     height: 3px;
+     width: 100%;
+     display: block;
+}
+
+   nav .menu-icon{
+    cursor: pointer;
+    font-size: 25px;
+}
+.banner{
+     display: flex;
+     justify-content: center;
+}
+
+  .banner .banner-text{
+     margin: 150px;
+     text-align: center;
+     padding: 0 90px;
+}
+
+  .banner .banner-text h1{
+     font-size: 98px;
+     color: white;
+}
+
+  .banner .banner-text p{
+     font-size: 20px;
+     color: white;
+     font-weight: lighter;
+     margin: 18px 0;
+}
+
+   .footer{
+    background-color: #4f9cf9;
+    text-align: center;
+}  
+
+   .footer p{
+     margin-top: 10px;
+     color: white;
+}
+
+   .sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .sobre .sobre-text{
+     width: 50%;
+     padding-right: 10%;
+}
+
+    .sobre .sobre-text p{
+     margin: 18px 0;
+     color: #000000a6;
+}
+
+    .sobre .sobre-img{
+     width: 50%;
+}
+
+    .sobre .sobre-img img{
+     width: 100%;
+     border-radius: 10px;
+}
+
+</style> 
+</head> 
+<body> 
+
+   <header style="background-image:url('img/background-Sobre1.jpg')">
+
+      <div class="container">
+
+         <nav>
+           <a href="index.html"></a>
+                <img src="img/logo.png" alt="logo">
+           </a>
+
+           <ul class="ul">
+               <a href="index.html">HOME</a>
+               <a href="sobre.html">SOBRE</a>
+               <a href="servicos.html">SERVIÇOS</a>
+               <a class="btn"href="contato.html">CONTATO</a>
+                 
+           </ul>
+
+           <div class="menu-icon">
+             <i class="fa fa-bars"></i>
+           </div>
+
+         </nav>
+         
+         <section class="banner">
+            <div class="banner-text">
+
+                <h1>SOBRE</h1>
+                <p>Rogério Vieira Dias - RU - 1071602 </p>
+                                 
+            </div>
+
+       </div>
+
+   </header>
+          
+   <section class="sobre">
+     <div class="container">
+       <div class="sobre-text">
+         <h3>Quem sou eu:</h3>
+          <p>
+           Olá me chamo Rogério Vieira Dias sou casado tenho um filho de 4 anos.
+           Estou o ramo da informática há alguns anos, iniciei fazendo cursinhos
+           de windows para começar bem no Exército Brasileiro. Ao final do período 
+          militar senti a necessidade de ter uma profissão, foi daí que resolvi 
+           me matricular num curso técnico de informática. A opção pelo curso não 
+          foi só pela rapidez com que eu teria um retorno do investimento, mas 
+          foi também na área uma das que mais cresce e uma amplitude de mercado de 
+          trabaho. Antes do findar do curso fiz estágio em um provedor de internet
+          onde lapidei meus conhecimentos. Quando terminei o curso meu primeiro 
+          emprego foi em uma loja de suporte à informática onde fiquei até passar 
+          em um concurso para a prefeitura local na vaga de técnico em informática
+          e lotado na secretaria de educação, mas por motivos de escolha me exonerei 
+         antes de acabar o estágio probatório. Tentei trabalhar em diversas áreas 
+         diferente de informática, mas sempre acabei retornando. Atualmente trabalho 
+         como técnico ftth, mas agora desejo terminar a faculdade de Analise e 
+         Desenvolvimento de Sistemas para alçar novos voos.
+          </p>
+   
+           <a href="contato.html" class="btn animate-btn">Entre em contato</a>          
+
+       </div>
+      <div class="sobre-img">
+       <img src="img/sobre.jpg" alt="Sobre">
+           
+         
+       </div>
+     </div>   
+   </section>              
+            <footer class="footer">
+                <div class="container">
+                  <div class="links">
+                    <a href="#"> <i class="fa fa-facebook"></i></a>
+                    <a href="#"> <i class="fa fa-instagram"></i></a>
+                    <a href="#"> <i class="fa fa-github"></i></a>
+                    <a href="#"> <i class="fa fa-linkedin"></i></a>
+                  </div>
+
+                  <p>Desenvolvido por Rogério Vieira Dias - RU1071602 - Uninter</p>
+
+                </div>
+      
+            </footer>
+                    
+           
+</body> 
+</html> 
